@@ -1,1 +1,25 @@
+# Overall title for pages.
+title: "Strom Phylogenetics C++ Tutorial"
+
+# Sites.
+#strom_site: "https://stromtutorial.github.io/home"
+
+#url: https://stromtutorial.github.io/home/
+#baseurl: '/linux'
+
 theme: jekyll-theme-minimal
+
+include: [.nojekyll]
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter: rouge
+
+sass:
+  sass_dir: assets/_scss
+
