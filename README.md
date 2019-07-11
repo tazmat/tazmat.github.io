@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+---
+---
 
-You can use the [editor on GitHub](https://github.com/tazmat/tazmat.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<div class="row" style="display: flex; align-items: center;">
+<div class="col-sm-2 col-xs-4">
+  <img src="{{ site.baseurl }}{% link assets/img/strom-logo.png %}" alt="" width="100%" />
+</div>
+<div class="col-sm-10 col-xs-8">
+  <h1 style="font-family:'Raleway'; font-size: 2.5em"><font color="#2D28B5"><b>Strom 3</b></font></h1>
+  <h3 style="margin-bottom:0px;">A tutorial for building Bayesian phylogenetic software using C++</h3>
+  <h3 style="font-style:italic;font-size:24px;margin-top:0px">({{ site.data.tutorial['platform'] | capitalize }} version)</h3>
+</div>
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### About
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This tutorial teaches you how to create C++ software that performs Bayesian phylogenetic analyses. It was written primarily to help students in my laboratory to develop software that they can later modify for their own purposes, but I hope it is more broadly useful.
 
-```markdown
-Syntax highlighted code block
+This is the third version of the tutorial. It differs from the second version in the order in which features are added and in allowing data partitioning. 
 
-# Header 1
-## Header 2
-### Header 3
+**This web site is currently a work in progress. This notice will disappear once it is ready to be used.**{: style="color: red"}.
 
-- Bulleted
-- List
+### Author
 
-1. Numbered
-2. List
+The tutorial was written by [Paul O. Lewis](http://phylogeny.uconn.edu).
 
-**Bold** and _Italic_ and `Code` text
+### Funding
+This tutorial was developed as a broader impact project associated with National Science Foundation grant DEB-1354146 (Estimating the Bayesian phylogenetic information content of systematic data, PI Paul O. Lewis).
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tazmat/tazmat.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Licence
+The software that you will create falls under the permissive open-source [MIT License](license.html).
